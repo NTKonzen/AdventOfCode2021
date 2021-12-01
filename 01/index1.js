@@ -4,7 +4,6 @@ let counter = 0;
 for (let i in data) {
     if (i == 0) continue;
     if (data[i] > data[i - 1]) {
-        console.log(`${data[i]} > ${data[i - 1]}`)
         counter++;
     }
 }
