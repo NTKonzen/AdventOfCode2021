@@ -1,4 +1,5 @@
-const data = require("./fakeData");
+// const data = require("./fakeData");
+const data = require("./data");
 
 const sorted = data.sort((a, b) => a - b);
 
